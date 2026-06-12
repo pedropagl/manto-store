@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manto Store | Camisas de Time</title>
+  <meta name="description" content="Manto Store - vitrine fictícia de camisas de futebol. Modelos nacionais, internacionais, retrô e treino. Compre pelo WhatsApp." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👕</text></svg>" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="#inicio" class="logo">Manto<span>Store</span></a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#inicio" class="nav-link">Início</a></li>
+        <li><a href="#produtos" class="nav-link">Produtos</a></li>
+        <li><a href="#categorias" class="nav-link">Categorias</a></li>
+        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="#contato" class="nav-link">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-content reveal">
+        <p class="tag">Camisas de futebol • modelos fictícios</p>
+        <h1>Os mantos que representam sua paixão pelo jogo.</h1>
+        <p class="hero-text">
+          Vitrine online fictícia para uma loja de camisas de time, com produtos em destaque,
+          filtros por categoria e compra rápida pelo WhatsApp.
+        </p>
+        <div class="hero-buttons">
+          <a href="#produtos" class="btn btn-primary">Ver produtos</a>
+          <a href="https://wa.me/5500000000000" target="_blank" class="btn btn-outline">Comprar pelo WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="hero-showcase reveal">
+        <div class="jersey big-jersey jersey-green">
+          <span>10</span>
+        </div>
+        <div class="floating-card">
+          <p>Modelo destaque</p>
+          <h2>Camisa Verde Classic</h2>
+          <strong>R$ 119,90</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="section categories" id="categorias">
+      <div class="section-title reveal">
+        <p>Categorias</p>
+        <h2>Escolha seu estilo de manto</h2>
+      </div>
+
+      <div class="category-grid">
+        <article class="category-card reveal">
+          <span>🇧🇷</span>
+          <h3>Nacionais</h3>
+          <p>Modelos inspirados no futebol brasileiro.</p>
+        </article>
+        <article class="category-card reveal">
+          <span>🌍</span>
+          <h3>Internacionais</h3>
+          <p>Camisas com visual europeu e global.</p>
+        </article>
+        <article class="category-card reveal">
+          <span>⏳</span>
+          <h3>Retrô</h3>
+          <p>Designs com pegada clássica e nostálgica.</p>
+        </article>
+        <article class="category-card reveal">
+          <span>⚡</span>
+          <h3>Treino</h3>
+          <p>Modelos leves para treino e uso casual.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section products" id="produtos">
+      <div class="section-title reveal">
+        <p>Produtos</p>
+        <h2>Vitrine de camisas</h2>
+        <span class="notice">Projeto fictício: sem marcas, escudos oficiais ou imagens protegidas.</span>
+      </div>
+
+      <div class="filter-buttons reveal" id="filterButtons">
+        <button class="filter-btn active" data-filter="todos">Todos</button>
+        <button class="filter-btn" data-filter="nacional">Nacional</button>
+        <button class="filter-btn" data-filter="internacional">Internacional</button>
+        <button class="filter-btn" data-filter="retro">Retrô</button>
+        <button class="filter-btn" data-filter="treino">Treino</button>
+      </div>
+
+      <div class="products-grid" id="productsGrid">
+        <article class="product-card reveal" data-category="retro">
+          <div class="product-art red-stripes"><span>07</span></div>
+          <div class="product-info">
+            <p class="product-category">Retrô</p>
+            <h3>Camisa Retrô Vermelha 2007</h3>
+            <p class="sizes">Tamanhos: P • M • G • GG</p>
+            <strong>R$ 139,90</strong>
+            <a href="https://wa.me/5500000000000?text=Tenho%20interesse%20na%20Camisa%20Retr%C3%B4%20Vermelha%202007" target="_blank" class="btn btn-product">Comprar</a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="internacional">
+          <div class="product-art blue-clean"><span>11</span></div>
+          <div class="product-info">
+            <p class="product-category">Internacional</p>
+            <h3>Camisa Azul Madrid</h3>
+            <p class="sizes">Tamanhos: P • M • G</p>
+            <strong>R$ 129,90</strong>
+            <a href="https://wa.me/5500000000000?text=Tenho%20interesse%20na%20Camisa%20Azul%20Madrid" target="_blank" class="btn btn-product">Comprar</a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="nacional">
+          <div class="product-art green-classic"><span>10</span></div>
+          <div class="product-info">
+            <p class="product-category">Nacional</p>
+            <h3>Camisa Verde Brasil Classic</h3>
+            <p class="sizes">Tamanhos: M • G • GG</p>
+            <strong>R$ 119,90</strong>
+            <a href="https://wa.me/5500000000000?text=Tenho%20interesse%20na%20Camisa%20Verde%20Brasil%20Classic" target="_blank" class="btn btn-product">Comprar</a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="treino">
+          <div class="product-art black-training"><span>⚡</span></div>
+          <div class="product-info">
+            <p class="product-category">Treino</p>
+            <h3>Camisa Preta Treino Elite</h3>
+            <p class="sizes">Tamanhos: P • M • G • GG</p>
+            <strong>R$ 99,90</strong>
+            <a href="https://wa.me/5500000000000?text=Tenho%20interesse%20na%20Camisa%20Preta%20Treino%20Elite" target="_blank" class="btn btn-product">Comprar</a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="internacional">
+          <div class="product-art white-london"><span>9</span></div>
+          <div class="product-info">
+            <p class="product-category">Internacional</p>
+            <h3>Camisa Branca London</h3>
+            <p class="sizes">Tamanhos: P • M • G</p>
+            <strong>R$ 124,90</strong>
+            <a href="https://wa.me/5500000000000?text=Tenho%20interesse%20na%20Camisa%20Branca%20London" target="_blank" class="btn btn-product">Comprar</a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="retro">
+          <div class="product-art milano-stripes"><span>22</span></div>
+          <div class="product-info">
+            <p class="product-category">Retrô</p>
+            <h3>Camisa Listrada Milano</h3>
+            <p class="sizes">Tamanhos: M • G • GG</p>
+            <strong>R$ 149,90</strong>
+            <a href="https://wa.me/5500000000000?text=Tenho%20interesse%20na%20Camisa%20Listrada%20Milano" target="_blank" class="btn btn-product">Comprar</a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="internacional">
+          <div class="product-art roma-grape"><span>8</span></div>
+          <div class="product-info">
+            <p class="product-category">Internacional</p>
+            <h3>Camisa Grená Roma</h3>
+            <p class="sizes">Tamanhos: P • M • G • GG</p>
+            <strong>R$ 134,90</strong>
+            <a href="https://wa.me/5500000000000?text=Tenho%20interesse%20na%20Camisa%20Gren%C3%A1%20Roma" target="_blank" class="btn btn-product">Comprar</a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="nacional">
+          <div class="product-art yellow-select"><span>BR</span></div>
+          <div class="product-info">
+            <p class="product-category">Nacional</p>
+            <h3>Camisa Amarela Seleção</h3>
+            <p class="sizes">Tamanhos: P • M • G</p>
+            <strong>R$ 114,90</strong>
+            <a href="https://wa.me/5500000000000?text=Tenho%20interesse%20na%20Camisa%20Amarela%20Sele%C3%A7%C3%A3o" target="_blank" class="btn btn-product">Comprar</a>
+          </div>
+        </article>
+      </div>
+
+      <p class="no-results" id="noResults">Nenhum produto encontrado para esse filtro.</p>
+    </section>
+
+    <section class="section about" id="sobre">
+      <div class="about-box reveal">
+        <div>
+          <p class="tag">Por que comprar conosco?</p>
+          <h2>Uma vitrine simples, bonita e direta para vender pelo WhatsApp.</h2>
+          <p>
+            Esse modelo foi feito para pequenos vendedores de camisas, lojas esportivas e negócios
+            que querem mostrar produtos sem precisar de um e-commerce completo no começo.
+          </p>
+        </div>
+        <div class="benefits-grid">
+          <div><h3>Envio rápido</h3><p>Área para destacar entrega e retirada.</p></div>
+          <div><h3>Modelos exclusivos</h3><p>Cards pensados para destacar cada produto.</p></div>
+          <div><h3>WhatsApp direto</h3><p>Cliente chama já falando o produto desejado.</p></div>
+          <div><h3>Tamanhos variados</h3><p>Informação clara dentro de cada card.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contato">
+      <div class="contact-card reveal">
+        <p class="tag">Contato</p>
+        <h2>Quer adaptar esse modelo para uma loja real?</h2>
+        <p>Troque os produtos, preços, cores e número de WhatsApp. Depois publique no GitHub Pages ou use como modelo para cliente.</p>
+        <div class="contact-actions">
+          <a href="https://wa.me/5500000000000" target="_blank" class="btn btn-primary">Falar no WhatsApp</a>
+          <a href="#produtos" class="btn btn-outline">Ver vitrine</a>
+        </div>
+        <p class="fake-info">Instagram: @mantostore.ficticia • Email: contato@mantostore.com</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Manto Store © 2026 - Projeto fictício para portfólio.</p>
+    <p>Sem uso de marcas, clubes ou escudos oficiais.</p>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
